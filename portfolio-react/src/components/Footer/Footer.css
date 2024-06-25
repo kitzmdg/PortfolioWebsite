@@ -1,0 +1,34 @@
+.footer{
+    margin: 50px 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+}
+.footer-top-left p{
+    font-size: 20px;
+    max-width: 500px;
+}
+.footer-top-right{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    max-width: 500px;
+    align-items: center;
+    gap: 35px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 18px;
+}

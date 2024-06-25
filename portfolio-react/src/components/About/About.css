@@ -1,0 +1,60 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.about-title h1{
+    padding: 0px 30px;
+    font-size: 60px;
+    font-weight: 600;
+}
+.about-left img{
+    border-radius:20px;
+}
+.about-sections{
+    margin-top: 100px;
+    display: flex;
+    gap: 80px;
+}
+.about-right{
+    display: flex;
+    flex-direction: column;
+    gap: 73px;
+}
+.about-para{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 40px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.about-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    cursor: pointer;
+}
+.about-skill{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.about-skill p{
+    min-width: 150px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.about-skill hr{
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg,#1034C6 -5.09%,#4ca0c4 106.28%);
+
+}
